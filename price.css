@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    max-width: 960px;
+}
+h1{
+    font-size: 32px;
+}
+
+p{
+    font-size:20px;
+    padding: 10px;
+}
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price .header {
+    background-color: #333;
+    color: white;
+    font-size: 25px;
+}
+
+.price .featured {
+    background-color: #23d160;
+    color: white;
+    font-size: 25px;
+}
+
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .columns {
+        width: 100%;
+    }
+}
